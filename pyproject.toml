@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "insights"
+version = "0.1.0"
+description = ""
+authors = ["Krzysztof <krzysztof.kolodzinski@problematy.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+google-auth-httplib2 = "^0.2.0"
+google-api-python-client = "^2.111.0"
+google-auth-oauthlib = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
